@@ -12,11 +12,14 @@ h2 {
 }
 
 #logo {
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
-  top: 0px;
+  top: -45px;
 }
 
 #tagline {
-  
+  font-size: 15px;
+  position: absolute;
+  left: 180px;
+  top: -13px;
 }
