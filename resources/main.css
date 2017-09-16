@@ -1,5 +1,8 @@
 html {
   background-color: #FAFAF6;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 h1 {
@@ -13,7 +16,7 @@ h2 {
 
 #logo {
   font-size: 30px;
-  position: absolute;
+  position: relative;
   top: -45px;
 }
 
@@ -22,4 +25,14 @@ h2 {
   position: absolute;
   left: 180px;
   top: -13px;
+}
+
+#header {
+  width: 105%;
+  height: 100px;
+  background-color: #BE0C0C;
+}
+
+#clock {
+
 }
