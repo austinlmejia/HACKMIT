@@ -7,26 +7,27 @@ html {
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  color: white;
 }
 
 h2 {
   font-family: 'Dosis', sans-serif;
-
+  color: white;
 }
 
 #logo {
   font-size: 30px;
   position: relative;
   top: -45px;
-  left: 14px;
+  left: 17px;
   z-index: 1;
 }
 
 #tagline {
   font-size: 15px;
   position: absolute;
-  left: 182px;
-  top: -13px;
+  left: 188px;
+  top: -12px;
 }
 
 #header {
@@ -37,9 +38,4 @@ h2 {
   height: 75px;
   background-color: #BE0C0C;
   z-index: 2;
-}
-
-#clock {
-  position: absolute;
-  
 }
