@@ -16,12 +16,12 @@ class MainHandler(webapp2.RequestHandler):
 
 class Profile(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('/profile.html')
+        template = jinja_environment.get_template('profile.html')
         self.response.write(template.render())
 
 class Friends(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('/friends.html')
+        template = jinja_environment.get_template('friends.html')
         self.response.write(template.render())
 
 app = webapp2.WSGIApplication([
