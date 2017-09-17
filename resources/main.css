@@ -24,6 +24,16 @@ body {
   font-size: 14px
 }
 
+h3 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px
+}
+
 #logo {
   font-size: 30px;
   position: relative;
