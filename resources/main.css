@@ -1,5 +1,4 @@
 html {
-  z-index: -1;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -7,11 +6,22 @@ html {
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  color: white;
 }
 
 h2 {
   font-family: 'Dosis', sans-serif;
+  color: white;
+}
 
+h3 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px
 }
 
 h3 {
@@ -28,15 +38,14 @@ body {
   font-size: 30px;
   position: relative;
   top: -45px;
-  left: 14px;
-  z-index: 1;
+  left: 17px;
 }
 
 #tagline {
   font-size: 15px;
   position: absolute;
-  left: 182px;
-  top: -13px;
+  left: 188px;
+  top: -12px;
 }
 
 #header {
@@ -46,10 +55,32 @@ body {
   width: 110%;
   height: 75px;
   background-color: #BE0C0C;
-  z-index: 2;
 }
 
-#clock {
-  position: absolute;
-  
+.whoAval {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  top: 130px;
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+
+ /*rounds box edges*/
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+.friend {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 20px;
 }
