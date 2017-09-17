@@ -1,5 +1,5 @@
 html {
-  background-color: #FAFAF6;
+  z-index: -1;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -28,21 +28,28 @@ body {
   font-size: 30px;
   position: relative;
   top: -45px;
+  left: 14px;
+  z-index: 1;
 }
 
 #tagline {
   font-size: 15px;
   position: absolute;
-  left: 180px;
+  left: 182px;
   top: -13px;
 }
 
 #header {
-  width: 105%;
-  height: 100px;
+  position: absolute;
+  left: -10px;
+  top: -5px;
+  width: 110%;
+  height: 75px;
   background-color: #BE0C0C;
+  z-index: 2;
 }
 
 #clock {
-
+  position: absolute;
+  
 }
