@@ -1,5 +1,4 @@
 html {
-  z-index: -1;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -20,7 +19,6 @@ h2 {
   position: relative;
   top: -45px;
   left: 17px;
-  z-index: 1;
 }
 
 #tagline {
@@ -37,5 +35,32 @@ h2 {
   width: 110%;
   height: 75px;
   background-color: #BE0C0C;
-  z-index: 2;
+}
+
+.whoAval {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  top: 130px;
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+
+ /*rounds box edges*/
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+.friend {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 20px;
 }
