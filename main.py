@@ -6,8 +6,8 @@ from google.appengine.ext import ndb
 from google.appengine.api import mail
 import time
 
-env=jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
-env1=jinja2.Environment(loader=jinja2.FileSystemLoader(''))
+jinja_environment = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
