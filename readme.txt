@@ -14,4 +14,16 @@ one of our computers to the other, and we had to navigate the troubles of
 attending our first Hackathon.
 
 So why are we telling you this? Two reasons: first, to explain to you why we are
-still proud of our project. Either one of us could have
+still proud of our project. Either one of us could have made our final project
+in four hours, and under normal conditions we wouldn't be too enthused about our
+website. But given the unusual conditions we encountered, both of us take pride
+in what we produced (we also plan on actually making our app after the hack is
+over).
+
+The second reason we decided to tell you this is because overall, we enjoyed
+this experience. Yeah it was kind of awful for both of us, but we really learned
+to stick together as a team, and we both feel that it only improved our mutual
+trust in each other.
+
+So please, take a look at our very messy, CSS heavy code. Because it's our code,
+and we love it.
